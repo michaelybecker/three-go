@@ -2,6 +2,7 @@
 ## A Stripped-Down ThreeJS Boilerplate
 ### (intended for rapid prototyping and quick single page experiments)
 
+![alt](https://raw.githubusercontent.com/MichaelHazani/three-go/master/scr.png)
 
 ## Features:
 
@@ -13,4 +14,6 @@
 
 - clone
 - npm install
-- "npm start go" to start. Two scripts are launched (courtesy of [concurrently](https://www.npmjs.com/package/concurrently) - a watcher and a browser-sync).
+- "npm start go" launches two scripts: [watchify](https://github.com/substack/watchify) and [browser-sync](https://github.com/BrowserSync/browser-sync).
+
+### Now go make things.
