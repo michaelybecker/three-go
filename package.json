@@ -1,6 +1,6 @@
 {
   "name": "three-go",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A stripped down three.js boilerplate",
   "main": "./src/app.js",
   "scripts": {
