@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "watchify src/app.js -o js/app.js -t [ babelify --presets [ es2015 ] ]",
-    "serve": "browser-sync start --server  --files '*.html, ./src/*.js' --reloadDelay 1000 --no-notify",
+    "serve": "browser-sync start --server  --files '*.html, ./css/*.css, ./src/*.js' --reloadDelay 1000 --no-notify",
     "go": "concurrently --kill-others \"npm run start\" \"npm run serve\""
   },
   "repository": {
