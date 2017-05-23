@@ -14,6 +14,6 @@
 
 - clone
 - npm install
-- "npm start go" launches two scripts: [watchify](https://github.com/substack/watchify) and [browser-sync](https://github.com/BrowserSync/browser-sync).
+- "npm start" launches two scripts: [watchify](https://github.com/substack/watchify) and [browser-sync](https://github.com/BrowserSync/browser-sync).
 
 ### Now go make things.

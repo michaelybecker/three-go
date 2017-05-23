@@ -4,9 +4,9 @@
   "description": "A stripped down three.js boilerplate",
   "main": "./src/app.js",
   "scripts": {
-    "start": "watchify src/app.js -o js/app.js -t [ babelify --presets [ es2015 ] ]",
+    "watch": "watchify src/app.js -o js/app.js -t [ babelify --presets [ es2015 ] ]",
     "serve": "browser-sync start --server  --files '*.html, ./css/*.css, ./src/*.js' --reloadDelay 1000 --no-notify",
-    "go": "concurrently --kill-others \"npm run start\" \"npm run serve\""
+    "start": "concurrently --kill-others \"npm run watch\" \"npm run serve\""
   },
   "repository": {
     "type": "git",
