@@ -16,7 +16,5 @@
 
 - clone
 - run ". threego.sh" and follow the onscreen instructions
-- yarn
-- yarn start
-
+- ('yarn start' will autorun)
 ### Now go make things.
