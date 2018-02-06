@@ -6,18 +6,19 @@
 
 ## Features:
 
-- a babelified, watchified, live-reloaded ES6 / module-based workflow 
+
+- [budo](https://github.com/mattdesl/budo)
 - a bash script to do some menial labor and redefine the project as your own
 - Orbitcontrols and a cube
-- That's it. The idea is to keep fluff to a minimum.
+- That's it. Keep fluff to a minimum.
 
 ## Installation: 
 
-- clone this repo
-- *Either* run ". threego.sh" (to source the bash file locally) and follow the onscreen instructions; script will also automatically "npm start" (see below)
-- *OR*:
-    - make any file/folder name modifications manually
-    - npm install (browsersync may have to be installed golbally)
-    - "npm start" launches two scripts: [watchify](https://github.com/substack/watchify) and [browser-sync](https://github.com/BrowserSync/browser-sync).
+- clone
+- run ". threego.sh" and follow the onscreen instructions
+
+- make any file/folder name modifications manually
+- yarn
+- yarn start
 
 ### Now go make things.
