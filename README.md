@@ -16,8 +16,6 @@
 
 - clone
 - run ". threego.sh" and follow the onscreen instructions
-
-- make any file/folder name modifications manually
 - yarn
 - yarn start
 
