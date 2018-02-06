@@ -5,7 +5,7 @@ let scene, renderer, camera, controls;
 
 let cube;
 
-let init = () => {
+const init = () => {
 
     //boilerplate
     renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -29,7 +29,7 @@ let init = () => {
 
 }
 
-let render = () => {
+const render = () => {
     requestAnimationFrame(render);
     renderer.render(scene, camera);
 
